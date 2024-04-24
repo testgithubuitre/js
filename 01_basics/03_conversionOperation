@@ -25,5 +25,51 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+
+//***************************Operation**************************************************
+
+let value = 3
+
+let negValue = -value
+//console.log(negValue);
+
+// Some operation we use in arithmatic
+
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**2); power of
+//console.log(2/2);
+//console.log(2%2);
+
+let str1 = "Hello"
+let str2 = " Diksha"
+let str3 = str1 + str2
+//console.log(str3);
+
+//Wrong way or confusion way to write  code in string
+
+//console.log("1" + 2); otput = 12
+//console.log(1 + "2"); output = 12
+//console.log("1" + 2 + 2); output = 122
+//console.log(1 + 2 + "2"); output = 32
+
+
+//console.log(+true); output = 1
+//console.log(+""); output = 0
+
+//prefix and postfix 
+
+let gameCounter = 100
+++gameCounter
+gameCounter++
+console.log(gameCounter);
+
+
+
+
+
+
